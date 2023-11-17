@@ -18,34 +18,34 @@
         android:textStyle="bold" />
 
     <EditText
-        android:inputType="numberSigned"
-        android:id="@+id/coefficient_a"
-        android:layout_width="match_parent"
-        android:layout_height="86dp"
-        android:hint="@string/a"
-        android:textAlignment="center"
-        android:textColor="#0000FF"
-        android:translationY="10dp" />
+            android:inputType="numberSigned"
+            android:id="@+id/coefficient_a"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/a"
+            android:textAlignment="center"
+            android:textColor="#0000FF"
+            android:translationY="10dp"/>
 
     <EditText
-        android:inputType="numberSigned"
-        android:id="@+id/coefficient_b"
-        android:layout_width="match_parent"
-        android:layout_height="85dp"
-        android:hint="@string/b"
-        android:textAlignment="center"
-        android:textColor="#0000FF"
-        android:translationY="20dp" />
+            android:inputType="numberSigned"
+            android:id="@+id/coefficient_b"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/b"
+            android:textAlignment="center"
+            android:textColor="#0000FF"
+            android:translationY="20dp"/>
 
     <EditText
-        android:inputType="numberSigned"
-        android:id="@+id/coefficient_c"
-        android:layout_width="match_parent"
-        android:layout_height="113dp"
-        android:hint="@string/c"
-        android:textAlignment="center"
-        android:textColor="#0000FF"
-        android:translationY="30dp" />
+            android:inputType="numberSigned"
+            android:id="@+id/coefficient_c"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/c"
+            android:textAlignment="center"
+            android:textColor="#0000FF"
+            android:translationY="30dp"/>
 
     <Button
         android:layout_width="220dp"
@@ -56,25 +56,25 @@
         android:translationY="40dp" />
 
     <TextView
-        android:id="@+id/discriminant"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:textAlignment="center"
-        android:textSize="24dp"
-        android:translationY="50dp" />
+            android:id="@+id/discriminant"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:translationY="50dp"/>
 
     <TextView
-        android:id="@+id/squareOne"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:textSize="24dp"
-        android:translationY="60dp" />
+            android:id="@+id/squareOne"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="24dp"
+            android:translationY="60dp" android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/squareTwo"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:textSize="24dp"
-        android:translationY="70dp" />
+            android:id="@+id/squareTwo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="24dp"
+            android:translationY="70dp" android:textAlignment="center"/>
 
 </LinearLayout>
