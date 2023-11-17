@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Equation</string>
+    <string name="title">Решение уравнения ax²+bx+c=0</string>
+    <string name="a">Kоэффициент a</string>
+    <string name="b">Kоэффициент b</string>
+    <string name="c">Kоэффициент c</string>
+    <string name="calculate">Решить</string>
+</resources>

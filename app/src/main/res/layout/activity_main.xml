@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0000FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="numberSigned"
+        android:id="@+id/coefficient_a"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:hint="@string/a"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:translationY="10dp" />
+
+    <EditText
+        android:inputType="numberSigned"
+        android:id="@+id/coefficient_b"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:hint="@string/b"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:translationY="20dp" />
+
+    <EditText
+        android:inputType="numberSigned"
+        android:id="@+id/coefficient_c"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:hint="@string/c"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:translationY="30dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="95dp"
+        android:onClick="solveEquation"
+        android:text="@string/calculate"
+        android:translationX="90dp"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/discriminant"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/squareOne"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textSize="24dp"
+        android:translationY="60dp" />
+
+    <TextView
+        android:id="@+id/squareTwo"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textSize="24dp"
+        android:translationY="70dp" />
+
+</LinearLayout>
