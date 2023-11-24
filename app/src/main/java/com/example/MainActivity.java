@@ -1,6 +1,7 @@
 package com.example;
 
 import android.annotation.SuppressLint;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.docjava.R;
+
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -36,25 +38,28 @@ public class MainActivity extends AppCompatActivity {
             String discriminantText = String.format(getResources().getString(R.string.discriminantZero), discriminant);
             answerDiscriminant.setText(discriminantText);
 
-            String SquareOneText = String.format(getResources().getString(R.string.Zero), discriminant);
+            String SquareOneText = String.format(getResources().getString(R.string.Zero), squareOne);
             answerSquareOne.setText(SquareOneText);
 
-            String SquareTwoText = String.format(getResources().getString(R.string.Zero), discriminant);
+            String SquareTwoText = String.format(getResources().getString(R.string.Zero), squareTwo);
             answerSquareTwo.setText(SquareTwoText);
+
+        } else if (discriminant == 0) {
+            String discriminantText = getResources().getString(R.string.discriminantText, String.valueOf(discriminant));
+            answerDiscriminant.setText(discriminantText);
+
+            String SquareOneText = getResources().getString(R.string.squareOne, String.valueOf(squareOne));
+            answerSquareOne.setText(SquareOneText);
 
         } else {
             String discriminantText = getResources().getString(R.string.discriminantText, String.valueOf(discriminant));
             answerDiscriminant.setText(discriminantText);
 
-            String SquareOneText = getResources().getString(R.string.squareOne, String.valueOf(discriminant));
+            String SquareOneText = getResources().getString(R.string.squareOne, String.valueOf(squareOne));
             answerSquareOne.setText(SquareOneText);
 
-            if (squareTwo != squareOne) {
-                String SquareTwoText = getResources().getString(R.string.squareTwo, String.valueOf(discriminant));
-                answerSquareTwo.setText(SquareTwoText);
-            } else {
-                answerSquareTwo.setText("Второго корня нет!");
-            }
+            String SquareTwoText = getResources().getString(R.string.squareTwo, String.valueOf(squareTwo));
+            answerSquareTwo.setText(SquareTwoText);
         }
     }
 }

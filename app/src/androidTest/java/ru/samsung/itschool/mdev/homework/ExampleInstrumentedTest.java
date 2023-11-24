@@ -1,4 +1,4 @@
-package com.example.docjava;
+package ru.samsung.itschool.mdev.homework;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.docjava", appContext.getPackageName());
+        assertEquals("ru.samsung.itschool.mdev.homework", appContext.getPackageName());
     }
 }

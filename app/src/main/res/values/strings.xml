@@ -1,14 +1,14 @@
-<resources>
-    <string name="app_name">Equation</string>
-    <string name="title">VРешение уравнения ax²+bx+c=0</string>
-    <string name="a">Kоэффициент a</string>
-    <string name="b">Kоэффициент b</string>
-    <string name="c">Kоэффициент c</string>
-    <string name="calculate">Решить</string>
+                    <resources>
+                        <string name="app_name">Equation</string>
+                        <string name="title">VРешение уравнения ax²+bx+c=0</string>
+                        <string name="a">Kоэффициент a</string>
+                        <string name="b">Kоэффициент b</string>
+                        <string name="c">Kоэффициент c</string>
+                        <string name="calculate">Решить</string>
 
-    <string name="discriminantZero">Дискриминант отрицательный. Корней нет.</string>
-    <string name="discriminantText">Дискриминант: %s</string>
-    <string name="squareOne">Первый корень: %s</string>
-    <string name="squareTwo">Второй корень: %s</string>
-    <string name="Zero">Корня нет!</string>
-</resources>
+                        <string name="discriminantZero">Дискриминант отрицательный. Корней нет.</string>
+                        <string name="discriminantText">Дискриминант: %s</string>
+                        <string name="squareOne">Первый корень: %s</string>
+                        <string name="squareTwo">Второй корень: %s</string>
+                        <string name="Zero">Корня нет!</string>
+                    </resources>
